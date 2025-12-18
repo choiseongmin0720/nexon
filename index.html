@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>NAVER</title>
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <button class="menu" aria-label="메뉴"></button>
+            <div class="naver" aria-label="네이버 홈"></div>
+            <button class="bell" aria-label="알림"></button>
+            <button class="cart" aria-label="장바구니"></button>
+        </div>
+
+        <div class="search-container">
+            <div class="search-box">
+                <a href="#">
+                    <img class="logo" src="https://lh6.googleusercontent.com/proxy/xWlGY8b6_3I-xmKeKVosNYX4RjmMGaMD61rOEnosQrTSMRGF0njuj2ni-tGqw1-_zLW6OsbuYiQrqyzf5-D6mmnWLPgjk9RzUXvf9MWb" alt="로고">
+                    <input type="text" class="search-input">
+                    <button class="keyboard-btn" aria-label="자동완성"></button>
+                    <button class="search-btn" aria-label="검색"></button>
+                </a>
+            </div>
+        </div>
+
+        <div class="service-menu">
+            <a href="https://mail.naver.com" class="service-item">
+                <div class="service-icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="white">
+                        <path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" />
+                    </svg>
+                </div>
+                <span class="service-name">메일</span>
+            </a>
+
+            <a href="https://section.cafe.naver.com" class="service-item">
+                <div class="service-icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="white">
+                        <path d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5s-3 1.34-3 3 1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z" />
+                    </svg>
+                </div>
+                <span class="service-name">카페</span>
+            </a>
+
+            <a href="https://blog.naver.com" class="service-item">
+                <div class="service-icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="white">
+                        <path d="M14 2H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V8l-6-6zM6 20V4h7v5h5v11H6z" />
+                    </svg>
+                </div>
+                <span class="service-name">블로그</span>
+            </a>
+
+            <a href="https://shopping.naver.com" class="service-item">
+                <div class="service-icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="white">
+                        <path d="M7 18c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zM1 2v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h12v-2H7.42c-.14 0-.25-.11-.25-.25l.03-.12.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.58-6.49c.08-.14.12-.31.12-.48 0-.55-.45-1-1-1H5.21l-.94-2H1zm16 16c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z" />
+                    </svg>
+                </div>
+                <span class="service-name">쇼핑</span>
+            </a>
+
+            <a href="https://news.naver.com" class="service-item">
+                <div class="service-icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="white">
+                        <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zM9 17H7v-7h2v7zm4 0h-2V7h2v10zm4 0h-2v-4h2v4z" />
+                    </svg>
+                </div>
+                <span class="service-name">뉴스</span>
+            </a>
+
+            <a href="https://dict.naver.com" class="service-item">
+                <div class="service-icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="white">
+                        <path d="M18 2H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zM9 4h2v5l-1-.75L9 9V4zm9 16H6V4h1v9l3-2.25L13 13V4h5v16z" />
+                    </svg>
+                </div>
+                <span class="service-name">사전</span>
+            </a>
+
+            <a href="https://finance.naver.com" class="service-item">
+                <div class="service-icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="white">
+                        <path d="M16 6l2.29 2.29-4.88 4.88-4-4L2 16.59 3.41 18l6-6 4 4 6.3-6.29L22 12V6z" />
+                    </svg>
+                </div>
+                <span class="service-name">증권</span>
+            </a>
+
+            <a href="https://land.naver.com" class="service-item">
+                <div class="service-icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="white">
+                        <path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z" />
+                    </svg>
+                </div>
+                <span class="service-name">부동산</span>
+            </a>
+
+            <a href="https://map.naver.com" class="service-item">
+                <div class="service-icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="white">
+                        <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" />
+                    </svg>
+                </div>
+                <span class="service-name">지도</span>
+            </a>
+
+            <a href="https://tv.naver.com" class="service-item">
+                <div class="service-icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="white">
+                        <path d="M21 3H3c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h5v2h8v-2h5c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 14H3V5h18v12z" />
+                    </svg>
+                </div>
+                <span class="service-name">웹툰</span>
+            </a>
+
+            <a href="https://chzzk.naver.com/" class="service-item">
+                <div class="service-icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="white">
+                        <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z" />
+                    </svg>
+                </div>
+                <span class="service-name">치지직</span>
+            </a>
+
+            <button class="more-btn">
+                <div class="more-dots">
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                </div>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <div class="main_wrapper">
+            <div class="left_content">
+                <div class="banner-container">
+                    <div class="banner-slider">
+                        <div class="banner-box item1"></div>
+                        <div class="banner-box item2"></div>
+                        <div class="banner-box item3"></div>
+                    </div>
+                </div>
+
+                <div class="news-section">
+                    <div class="news-tabs">
+                        <a href="#" class="tab active">뉴스스탠드</a>
+                        <a href="#" class="tab">언론사편집</a>
+                        <a href="#" class="tab">엔터</a>
+                        <a href="#" class="tab">스포츠</a>
+                        <a href="#" class="tab">경제</a>
+                        <a href="#" class="tab">쇼핑투데이</a>
+                    </div>
+                    <div class="news-filter">
+                        <button class="filter-btn">분야별 뉴스 ▼</button>
+                    </div>
+                    <div class="news-grid">
+                        <div class="news-card"><div class="news-image"></div></div>
+                        <div class="news-card"><div class="news-image"></div></div>
+                        <div class="news-card"><div class="news-image"></div></div>
+                        <div class="news-card"><div class="news-image"></div></div>
+                    </div>
+                </div>
+
+                <div class="shopping-section">
+                    <div class="shopping-nav">
+                        <button class="active">쇼핑</button>
+                        <button>맨즈</button>
+                        <button>브랜드샵</button>
+                        <button>추천핫딜</button>
+                        <button>쇼핑라이브</button>
+                    </div>
+
+                    <div class="shopping-main">
+                        <div class="shopping-sidebar">
+                            <div class="shop-tags">
+                                <button>쿠팡</button><button>G마켓</button>
+                                <button>옥션</button><button>올리브영</button>
+                                <button>11번가</button><button>SSG닷컴</button>
+                                <button>GS SHOP</button><button>하프클럽</button>
+                                <button>CJ온스타일</button><button>패션플러스</button>
+                                <button>이마트몰</button>
+                            </div>
+                        </div>
+
+                        <div class="shopping-content">
+                            <div class="product-grid">
+                                <div></div><div></div><div></div><div></div><div></div>
+                                <div></div><div></div><div></div><div></div><div></div>
+                            </div>
+                            <div class="shopping-bottom">
+                                <p>오늘의 혜택 <span>halfclub</span> 따라 입고 싶은 세련된 겨울템, <span>올리브데일리드</span> 역대급 SALE!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="right_container">
+                <div class="login-box">
+                    <p class="safe">네이버를 더 안전하고 편리하게 이용하세요</p>
+                    <button class="lg-btn">NAVER 로그인</button>
+                    <div class="login-links">
+                        <a href="#" class="need">아이디 찾기</a>
+                        <a href="#" class="need">비밀번호 찾기</a>
+                        <a href="#" class="need">회원가입</a>
+                    </div>
+                </div>
+
+                <div class="all">
+                    <h3>ALL FOR YOU 2027메가패스</h3>
+                    <div class="poto"></div>
+                </div>
+
+                <img src="https://gfd-phinf.pstatic.net/20251130_296/1764474724791RPR8c_PNG/aed90fecd3e81637f3a227e2e7a5fd83.png" alt="광고 이미지">
+
+                <div class="many">
+                    <h3>많이 찾는 이런 상품 추천</h3>
+                    <div class="gray"></div>
+                    <div class="gray"></div>
+                    <div class="gray"></div>
+                </div>
+
+                <div class="weather">
+                    <div class="weather-container">
+                        <div class="weather-header">
+                            <h2 class="weather-title">날씨</h2>
+                            <button class="weather-info">예보 비교</button>
+                        </div>
+                        <div class="weather-main">
+                            <div class="current-weather">
+                                <div class="temperature">
+                                    <span class="temp-big">12.8°</span>
+                                    <span class="temp-label">맑음</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="money">
+                        <h3>증시</h3>
+                        <p>코스피</p>
+                        <p>4,008,15</p>
+                        <img src="https://ssl.pstatic.net/imgfinance/chart/mobile/mini/KOSDAQ_naverpc_l.png" style="width:100%" alt="증시 그래프">
+                    </div>
+                    
+                    <div class="car">
+                        <h3>저신용 맞춤 중고차 할부 승인</h3>
+                        <img src="https://ad-creative.pstatic.net/image-plus/202512/rfhmnmxj.webp?transform=-145.21428571428567,129.52380952380958,1321.4285714285713,880.952380952381,684,456&bg=250,245,225&check=yes" alt="중고차 광고">
+                    </div>
+                </div>
+            </div> 
+        </div> 
+    </main>
+</body>
+</html>
